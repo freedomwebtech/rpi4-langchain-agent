@@ -9,7 +9,7 @@ llm = ChatGoogleGenerativeAI(
     max_tokens=None,         # Set maximum token length (None means no limit)
     timeout=None,            # Set timeout (None means no timeout)
     max_retries=2,           # Number of retries if the API fails
-    api_key="AIzaSyBjrO5usksCDgO6uJDAAEc1GO9-5080OjY"  # Provide your Google API key here
+    api_key=""  # Provide your Google API key here
 )
 
 # Initialize DuckDuckGo search tool for web search capability
